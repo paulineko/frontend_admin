@@ -1,11 +1,11 @@
-
+import React from 'react';
 import './App.css';
-import authorization from "./pages/authorization.js";
+import Authorization from "./pages/authorization.js";
 
 function App() {
   return (
     <div className="App">
-       <authorization/>
+       <Authorization/>
     </div>
   );
 }
