@@ -13,7 +13,7 @@ const Authorization = () => {
    <div class = "container-authorization">
    <div className='row-rast'>
          <div className='row-col1'>
-           <div className="mobile-student">MOBILE <br/><span class="colortext"> STUDENT</span>  </div>
+           <div className="mobile-student">MOBILE <br/> <span class="colortext"> STUDENT</span></div>
 
 
            <div className="recover-password">Забыли пароль?</div>
@@ -25,8 +25,8 @@ const Authorization = () => {
            </div>
          </div>
          <div className='row-col2'>
-         <img className="figures1" src={Main2} alt="logo"  />
-         <img className="figures2" src={Main1} alt="logo"  />
+         <img className="figures1" src={Main1} alt="logo"  />
+         <img className="figures2" src={Main2} alt="logo"  />
          
          </div>
         </div>
