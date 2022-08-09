@@ -1,0 +1,17 @@
+.header {
+   display: flex;
+   height: 64px;
+}
+
+.header-logo {
+   padding: 0px 12px;
+}
+
+.enter-link {
+   display: inline;
+}
+
+.enter-text {
+   text-decoration: none;
+   padding-left: 10px;
+}
