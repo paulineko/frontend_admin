@@ -1,10 +1,45 @@
-.header {
-   display: flex;
-   height: 64px;
+.container, .header, .header-logo, .header-enter, .header-enter-right, .enter-link, .enter-text, .enter-login {
+   background-color: white;
 }
 
+.header {
+   position: relative;
+   z-index: 1000;
+   width: 100%;
+   height: 64px;
+   box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.1);  
+}
+
+.header::before {
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1000;
+}
+
+.container {
+   display: flex;
+   margin: 0px 54px;
+}
+
+
 .header-logo {
-   padding: 0px 12px;
+   padding: 12px 0px;
+   justify-content: flex-start;
+}
+
+.header-enter {
+   display: flex;
+   flex: 1;
+   justify-content: flex-end;
+}
+
+.header-enter-right {
+   padding: 0;
+   list-style: none;  
 }
 
 .enter-link {
