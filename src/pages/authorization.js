@@ -25,11 +25,12 @@ const Authorization = () => {
                   </div>
               </div>
               <div className='row-col2'>
-                <img className="figures1" src={Main2} alt="logo"  />
-                <img className="figures2" src={Main1} alt="logo"  />
+                <img className="figures1" src={Main1} alt="logo"  />
+                <img className="figures2" src={Main2} alt="logo"  />
               </div>
             </div>
           </div>
+
         </main>
       </div>
     )
