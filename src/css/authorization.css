@@ -1,51 +1,33 @@
-.container-authorization
-{
-   
+.container-authorization {   
     align-items: flex-start;
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-.row-rast
-{
+.row-rast {
     display: flex;
     align-items: stretch;
 }
 
-.row-col1
-{
+.row-col1 {
 
 }
 
-.row-col2
-{
+.row-col2 {
     width: 700px;
 }
 
-.mobile-student
-{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 36px;
-    /* or 100% */
-    
-    letter-spacing: 0.05em;
-    
+.mobile-student {
+    font-family: 'Bebas Neue';
+    font-size: 36px;   
     color: #18304A;
 }
 
-.colortext
-{
-    font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 36px;
-
-
-font-weight: 100;
-color: #18304A;
+.colortext {
+    font-family: 'Bebas-Neue-Light';
+    font-size: 36px;
+    color: #18304A;
 }
 
 .recover-password
