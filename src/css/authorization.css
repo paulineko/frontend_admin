@@ -15,11 +15,12 @@
 
 .row-col1
 {
-
+    height: 600px;
 }
 
 .row-col2
 {
+    height: 600px;
     width: 700px;
 }
 
@@ -29,10 +30,10 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
-    /* or 100% */
-    
+  
     letter-spacing: 0.05em;
     
+    font-weight: 700;
     color: #18304A;
 }
 
@@ -42,7 +43,7 @@
 font-weight: 700;
 font-size: 36px;
 line-height: 36px;
-
+letter-spacing: 0.05em;
 
 font-weight: 100;
 color: #18304A;
@@ -78,19 +79,23 @@ color: #18304A;
 
 .figures1
 {
-    width: 495px;
-    height: 440px;
-    position: relative;  
+    width: 695px;
+    height: 640px;
+    margin-left: 81px;
+    position: relative; 
+    top: 10px;
+    bottom: 0px;
     left: 81px;
-
 }
 
 .figures2
 {
     width: 595px;
     height: 540px;
-    position: relative;  
-    bottom: 500px;
-    left: 90px;
-   
+    background: none;
+    position: relative; 
+    bottom: 520px;
+    left: 81px;
 }
+
+
