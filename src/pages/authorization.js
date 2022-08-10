@@ -4,6 +4,8 @@ import { useFormik } from 'formik';
 import Main1 from '../img/main_1.png';
 import Main2 from '../img/main_2.png';
 
+
+
 const Authorization = () => {
   const formik = useFormik({
     initialValues: {

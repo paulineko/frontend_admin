@@ -1,0 +1,132 @@
+.container-registration {   
+   align-items: flex-start;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.row-rast {
+   display: flex;
+   align-items: stretch;
+}
+
+.row-col1 {
+ height: 600px;
+}
+
+.row-col2 {
+ height: 600px;
+  width: 700px;
+}
+
+.mobile-student {
+   font-family: 'Bebas Neue';
+   font-size: 36px;   
+   margin-bottom: 74px;
+   color: #18304A;
+}
+
+.colortext {
+   font-family: 'Bebas-Neue-Light';
+   font-size: 36px;
+   color: #18304A;
+   
+}
+
+.recover-password
+{
+   font-style: normal;
+   font-weight: 275;
+   font-size: 14px;
+   line-height: 36px;
+   text-align: right;
+}
+
+.login-registration-input {
+   height: 45px;
+   width: 205px;
+   border:0;
+   border-bottom:1px solid black;
+   background: url(../img/email.svg) no-repeat;
+   background-position: center left;
+   padding-left: 30px;
+}
+
+.login-registration-input :focus {
+   border: none;
+   background: none;
+}
+
+.password-registration-input {
+   margin-top: 30px;
+   height: 45px;
+   width: 205px;
+   border:0;
+   border-bottom:1px solid black;
+   background: url(../img/password.svg) no-repeat;
+   background-position: center left;
+   padding-left: 30px;
+}
+
+.repeatPassword-registration-input {
+   margin-top: 30px;
+   margin-bottom: 40px;
+   height: 45px;
+   width: 205px;
+   border:0;
+   border-bottom:1px solid black;
+   background: url(../img/password.svg) no-repeat;
+   background-position: center left;
+   padding-left: 30px;
+}
+
+.button1
+{
+   cursor: pointer;
+  
+   width: 240px;
+   height: 45px;
+   left: 250px;
+   top: 532px;
+   
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   border-radius: 16px;
+   margin-bottom: 14px;
+
+   font-style: normal;
+   font-weight: 250;
+   font-size: 14px;
+   line-height: 36px;
+   
+}
+
+.button1:hover {
+   transition: background 0.3 ease 0s;
+   border: 0px;
+   background: #D9D9D9;
+   color: black;
+}
+
+.figures1
+{
+   width: 695px;
+   height: 580px;
+   margin-left: 81px;
+   position: relative; 
+   
+   top: -20px;
+   bottom: 0px;
+   left: 81px;
+}
+
+.figures2
+{
+   width: 595px;
+   height: 540px;
+   background: none;
+   position: relative; 
+   bottom: 540px;
+   left: 81px;
+}
+
+
