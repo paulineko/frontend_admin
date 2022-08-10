@@ -1,6 +1,6 @@
 import React from "react";  
 import { useFormik } from 'formik';
-
+import { Link } from "react-router-dom";
 import Main1 from '../img/main_1.png';
 import Main2 from '../img/main_2.png';
 
@@ -55,7 +55,9 @@ const Authorization = () => {
                     <button className ='button1' type="submit">Войти</button>
                   </div>
                   <div>
+                  <Link to="/registration">
                     <button className ='button1' >Зарегистрироваться</button>
+                    </Link>
                   </div>
                 </form>
               </div>
