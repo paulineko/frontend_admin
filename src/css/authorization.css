@@ -22,6 +22,7 @@
 .mobile-student {
     font-family: 'Bebas Neue';
     font-size: 36px;   
+    margin-bottom: 74px;
     color: #18304A;
 }
 
@@ -29,6 +30,7 @@
     font-family: 'Bebas-Neue-Light';
     font-size: 36px;
     color: #18304A;
+    
 }
 
 .recover-password
@@ -87,13 +89,21 @@
     
 }
 
+.button1:hover {
+    transition: background 0.3 ease 0s;
+    border: 0px;
+    background: #D9D9D9;
+    color: black;
+}
+
 .figures1
 {
     width: 695px;
-    height: 640px;
+    height: 580px;
     margin-left: 81px;
     position: relative; 
-    top: 10px;
+    
+    top: -20px;
     bottom: 0px;
     left: 81px;
 }
@@ -104,7 +114,7 @@
     height: 540px;
     background: none;
     position: relative; 
-    bottom: 520px;
+    bottom: 540px;
     left: 81px;
 }
 
