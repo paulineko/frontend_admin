@@ -2,6 +2,7 @@
 @import url(./fonts/fonts.css);
 @import url(./css/header.css);
 @import url(./css/authorization.css);
+@import url(./css/registration.css);
 
 * {
   color: black;
