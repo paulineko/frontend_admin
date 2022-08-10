@@ -3,6 +3,7 @@ import Main1 from '../img/main_1.png';
 import Main2 from '../img/main_2.png';
 import login from '../img/login.png';
 import password from '../img/password.png';
+import { Link } from "react-router-dom";
 
 const Registration = () => {
     return (
@@ -20,7 +21,9 @@ const Registration = () => {
                   <button className ='button1' >Зарегистрироваться</button>
                 </div>
                 <div>
+                <Link to="/authorization">
                   <button className ='button1' >У меня уже есть аккаунт</button>
+                  </Link>
                   </div>
               </div>
               <div className='row-col2'>
