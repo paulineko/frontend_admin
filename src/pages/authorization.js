@@ -54,7 +54,9 @@ const Authorization = () => {
                   </div>
                   <div className="recover-password">Забыли пароль?</div>
                   <div>
+                  <Link to="/page-login">
                     <button className ='button1' type="submit">Войти</button>
+                    </Link>
                   </div>
                   <div>
                   <Link to="/registration">
