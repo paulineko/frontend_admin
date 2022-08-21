@@ -4,6 +4,7 @@
 @import url(./css/sidebar.css);
 @import url(./css/authorization.css);
 @import url(./css/registration.css);
+@import url(./css/news-block.css);
 
 * {
   color: black;
