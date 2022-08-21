@@ -1,0 +1,140 @@
+.containerSidebar {
+   width: 330px;
+   padding-top: 34px;
+   padding-left: 54px;
+   padding-right: 20px;
+}
+
+.sidebar {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 330px;
+   align-content: space-between;
+   padding: 0;
+}
+
+.sidebarName {
+   list-style: none;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   width: 256px;
+   height: 83px;
+   background: white; 
+}
+
+.sidebarTopItem {
+   background: #D9D9D9;
+   border-radius: 16px 16px 0px 0px;
+   width: 256px;
+   height: 20px;
+}
+
+.sidebarNameBig {
+   background-color: white;
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.05em;
+   padding-top: 7px;
+   padding-left: 24px;
+}
+
+.sidebarNameDescription {
+   background-color: white;
+   font-style: italic;
+   font-size: 12px;
+   line-height: 20px;
+   letter-spacing: 0.05em;
+   padding-top: 6px;
+   padding-left: 24px;
+}
+
+.sidebarItem {
+   background: #E7E7E7;  
+   list-style: none;  
+   margin-top: 12px ;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   width: 256px;
+   height: 58px;
+}
+
+.sidebarItem:hover {
+   background: #D0CFCF; 
+   box-shadow: -3px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarItemBig {
+   font-weight: bold;
+   font-size: 14px;
+   letter-spacing: 0.05em;
+   line-height: 20px;
+   padding-top: 9px;
+   padding-left: 32px;
+}
+
+.sidebarItemDescription {
+   font-weight: 250;
+   font-size: 12px;
+   line-height: 20px;
+   padding-bottom: 9px;
+   padding-left: 32px;
+}
+
+/*.sidebarArrow {
+   
+   background: url(../img/arrow.svg) no-repeat;
+   height:0px;
+   max-width: 0px;
+   transition: .6s linear;
+}*/
+
+
+
+.sidebarArrow {
+   position: relative;
+   width: 210px;
+   height: 3px;  
+   padding-left: 32px;
+   transition: .6s linear;
+}
+   
+.sidebarArrow div {
+   position: relative;
+   max-width: 0px;
+   height: 1px;
+   background-color: #000000;
+   display: block;
+   transition: 1s linear;
+}
+   
+.sidebarArrow div::before {
+   content: ''; 
+   position: absolute;
+   width: 6px;
+   height: 1px;
+   top: 2px;
+   right: -1px;
+   background-color: #000000;
+   transform: rotate(-45deg);
+   transition: 1s linear;
+}
+   
+.sidebarArrow div::after {
+   content: '';
+   position: absolute;
+   width: 6px;
+   height: 1px;
+   top: -2px;
+   right: -1px;
+   background-color: #000000;
+   transform: rotate(45deg);
+   transition: 1s linear;
+}
+
+.sidebarArrow div:hover {
+   height: 1px;
+   max-width:210px;
+}
+   
